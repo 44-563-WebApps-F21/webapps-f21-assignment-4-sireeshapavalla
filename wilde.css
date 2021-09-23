@@ -1,0 +1,40 @@
+.speech{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(20,40,30);
+    
+    font-weight: normal;
+  }
+  .stage-direction{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(238, 144, 199);
+    display: inline;
+  }
+  .stage-direction:hover{
+    color: rgb(153, 34, 34);
+    background-color: rgb(15, 20, 88);
+  }
+  .name:PRINCE PAUL{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(113, 28, 192);
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgb(47, 166, 221);
+  }
+  .VERA{
+    color: rgb(60, 26, 155);
+    font-size: 20px;
+  }
+  .PRINCEPAUL{
+    color: rgb(197, 141, 20);
+    font-size: 20px;
+  }
+  .CZAR{
+    color: rgb(196, 31, 141);
+    font-size: 20px;
+  }
+  .MICH{
+    color: rgb(31, 196, 72);
+    font-size: 20px1;
+  }
