@@ -100,3 +100,22 @@ table.table_actors th {
     color: white;
 }
 
+
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-horizontal li {
+    float:left;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+ul.navbar-horizontal a {
+    display:block;
+    padding:20px;
+    color: rgb(19, 18, 17);
+}
+ul.navbar-horizontal a:hover {
+    background-color: rgb(214, 115, 21);
+    color:yellowgreen;
+}
