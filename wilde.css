@@ -4,24 +4,24 @@
     color:rgb(20,40,30);
     
     font-weight: normal;
-  }
-  .stage-direction{
+}
+.stage-direction{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     color: black;
-    background-color: rgb(238, 144, 199);
+    background-color: lightgreen;
     display: inline;
-  }
-  .stage-direction:hover{
-    color: rgb(56, 101, 114);
-    background-color: rgb(6, 77, 9);
-  }
-  .name:hover{
+}
+.stage-direction:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(218, 63, 153);
+}
+.name:hover{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(113, 28, 192);
     font-size: 20px;
     text-shadow: 2px 2px 5px rgb(47, 166, 221);
-  }
+}
   .VERA{
     color: rgb(60, 26, 155);
     font-size: 20px;
