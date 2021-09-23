@@ -38,3 +38,23 @@
     color: rgb(31, 196, 72);
     font-size: 20px1;
   }
+  table{
+    width: fit-content;
+    border: 4px double black;
+    text-align: left;
+    padding: 15px;
+}
+tr:nth-child(even){
+    background-color: #8b7272;}
+td{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    color:red;
+}
+th,td {
+    border: 1px solid black;
+}
+tr:hover {
+    background-color: rgb(75, 72, 72);}
