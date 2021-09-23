@@ -1,60 +1,102 @@
-.speech{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    color:rgb(20,40,30);
-    
-    font-weight: normal;
-}
-.stage-direction{
-    font-family: 'Times New Roman', Times, serif;
+h6{
+    font-family: Arial - Sans Serif;
     font-size: 20px;
     color: black;
-    background-color: lightgreen;
-    display: inline;
 }
-.stage-direction:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(218, 63, 153);
+
+p.speech{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
 }
-.name:hover{
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(113, 28, 192);
-    font-size: 20px;
-    text-shadow: 2px 2px 5px rgb(47, 166, 221);
+
+p.stage-direction{
+    
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    color: black;
+    background-color: rgb(122, 26, 160);
 }
-  .VERA{
-    color: rgb(60, 26, 155);
-    font-size: 20px;
-  }
-  .PRINCEPAUL{
-    color: rgb(197, 141, 20);
-    font-size: 20px;
-  }
-  .CZAR{
-    color: rgb(196, 31, 141);
-    font-size: 20px;
-  }
-  .MICH{
-    color: rgb(31, 196, 72);
-    font-size: 20px1;
-  }
-  table{
-    width: fit-content;
-    border: 4px double black;
+
+p.stage-direction:hover {
+    background-color:skyblue;
+    color:rgb(45, 78, 94);
+}
+
+h6.PRINCE-PAUL-MARALOFFSKI{
+    font-family: sans-serif;
+    color:rgb(85, 54, 13);
+}
+
+h6.PRINCE-PETROVITCH{
+    font-family: Helvetica, sans-serif;
+    color:rgb(94, 40, 91);
+}
+
+h6.COUNT-ROUVALOFF{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(18, 23, 94);
+}
+
+h6.BARON-RAFF{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(199, 211, 31);
+}
+
+h6.PRINCE-PAUL-MARALOFFSKI:hover{
+    text-shadow: 2px 3px 4px rgb(157, 209, 15);
+    border-style:solid;
+    color:rgb(233, 1, 1);
+    
+}
+
+h6.PRINCE-PETROVITCH:hover{
+    text-shadow: 2px 3px 4px rgb(100, 237, 203);
+    border-style:double;
+    color:rgb(177, 177, 146);
+}
+
+h6.COUNT-ROUVALOFF:hover{
+    text-shadow: 2px 3px 4px cadetblue;
+    border-style:ridge;
+    color: rgba(247, 15, 15, 0.295);
+}
+
+h6.BARON-RAFF:hover{
+    text-shadow: 2px 3px 4px cornflowerblue;
+    border-style:double;
+    color:rgb(99, 32, 185);
+}
+
+.table_heading{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:black;
+}
+
+table.table_actors{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    padding: 20px;
+    margin: 40px;
+}
+
+table.table_actors tr:nth-child(odd){
+    background-color:rgb(1, 10, 20);
+}
+
+table.table_actors td, table.table_actors th {
+    border: 1px solid rgb(41, 112, 52);
+    padding: 10px;
     text-align: left;
-    padding: 15px;
+    color: rgb(29, 41, 155)
 }
-tr:nth-child(even){
-    background-color: #8b7272;}
-td{
-    border: 1px solid black;
+
+table.table_actors th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:rgb(102, 25, 133);
+    color: white;
 }
-th{
-    border: 1px solid black;
-    color:red;
-}
-th,td {
-    border: 1px solid black;
-}
-tr:hover {
-    background-color: rgb(75, 72, 72);}
+
